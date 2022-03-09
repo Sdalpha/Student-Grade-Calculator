@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentGradeSystem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="server.js"></script>
+</head>
+
+<body>
+    <section class="fullbody">
+
+        <section class="main">
+            <div class="left-side">
+                <img src="bar.png" alt="">
+                <h1>Student Grade Calcy</h1>
+            </div>
+            <div class="right-side">
+                <div class="input-group">
+                    <input id="os" type="text" placeholder="    Opeation System">
+                    <input id="java" type="text" placeholder="    Core Java">
+                    <input id="dsa" type="text" placeholder="    Data Structure & Algo">
+                    <input id="dbms" type="text" placeholder="    DBMS">
+                </div>
+                <div class="btn">
+                    <div class="display">
+                        <p id="showData"></p>
+                    </div>
+                    <button onclick="calcy()">Calculate</button>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
